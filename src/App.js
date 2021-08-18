@@ -2,7 +2,7 @@ import React,{Component} from "react";
 import CardList from "./CardList";
 import {robots} from "./robots"; //rule is: not default>need to destructure it
 import SearchBox from "./SearchBox";
-
+import "./App.css";
 
 //All component have state need to use class function
 class App extends Component{
@@ -26,7 +26,7 @@ class App extends Component{
 
         return(
             <div className="tc">
-                <h1>RoboFriends</h1>
+                <h1 className="f1">RoboFriends</h1>
                 <SearchBox searchChange={this.onSearchChange}/>
                 <CardList robots={filteredRobots}/>
             </div>
