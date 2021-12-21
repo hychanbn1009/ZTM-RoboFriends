@@ -9,7 +9,6 @@ import "./App.css";
 const App=()=>{
     const [robots,setRobots]=useState([])
     const [searchfield,setSearchfield]=useState("")
-    const [count,setCount]=useState(0)
 
     // componentDidMount(){
     //     fetch("https://jsonplaceholder.typicode.com/users")
